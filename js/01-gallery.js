@@ -33,7 +33,7 @@ function onGalleryContainerClick(event) {
 
     const instance = basicLightbox.create(`
         <div class="modal">
-            <img src="${event.target.dataset.source}" width="100%">
+            <img src="${event.target.dataset.source}" width="980">
         </div>
     `)
     instance.show();
